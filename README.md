@@ -1,1 +1,1 @@
-<h2 class="a" color=blue;>Testando</h2>
+<p style="color: rgb(48, 14, 240)">Testando</p>
