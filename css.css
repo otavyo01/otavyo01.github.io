@@ -1,4 +1,52 @@
-h1{
+body {
+    background-image: url("./img/headphones-699054.jpg");
+    background-repeat: no-repeat;
+    background-size: 1380px 700px;
+}
+
+h1 {
     text-align: center;
-    color: purple;
+    color: rgb(2, 0, 128);
+    font-family: monospace;
+    font-size: 400%;
+}
+
+.RobloxLink {
+
+    font-size: large;
+    text-align: center;
+}
+
+.AgarioLink {
+
+    font-size: large;
+    text-align: center;
+
+}
+
+h1 {
+    filter: drop-shadow(30px 10px 4px #4444dd);
+    font-family: "Lucida Console", "Courier New", monospace;
+    animation-name: teste;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes teste {
+
+    25% {
+        color: red
+    }
+
+    50% {
+        color: green
+    }
+
+    100% {
+        color: blue
+    }
 }
